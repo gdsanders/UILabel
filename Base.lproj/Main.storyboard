@@ -42,6 +42,9 @@
                                 <state key="normal" title="Fire lasers">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="fireLasersButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dxk-iO-grv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHK-nI-fME">
                                 <rect key="frame" x="20" y="392" width="120" height="40"/>
@@ -49,10 +52,20 @@
                                 <state key="normal" title="Change scheme">
                                     <color key="titleColor" red="0.98459788276025229" green="0.98699889520202022" blue="0.94717837516268244" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeSchemesButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="azU-M7-Oob"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.04467342316223831" green="0.12104098231064689" blue="0.64382102272727271" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="changeSchemeButton" destination="cHK-nI-fME" id="urm-ky-oKc"/>
+                        <outlet property="consoleTitleLabel" destination="XtH-73-vgZ" id="YJP-z7-rmd"/>
+                        <outlet property="fireLasersButton" destination="dD3-Hs-2ta" id="HhP-dK-bF6"/>
+                        <outlet property="screenLabel" destination="ehx-Rt-o7X" id="kLf-B8-KwU"/>
+                        <outlet property="screenTitleLabel" destination="o9n-aA-Kch" id="6tZ-hn-MPJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
