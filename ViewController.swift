@@ -51,6 +51,15 @@ class ViewController: UIViewController {
     }
 
     @IBAction func changeSchemesButtonTapped(sender: UIButton) {
+        
+        consoleTitleLabel.textColor = white
+        screenTitleLabel.textColor = lightTeal
+        screenTitleLabel.backgroundColor = lightPurple
+        
+        screenLabel.textColor = lime
+        screenLabel.backgroundColor = lightYellow
+        screenLabel.text = "We have a scheme change. WOW!"
+        
     
     }
     
