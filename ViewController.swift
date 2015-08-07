@@ -59,12 +59,17 @@ class ViewController: UIViewController {
         screenLabel.textColor = lime
         screenLabel.backgroundColor = lightYellow
         screenLabel.text = "We have a scheme change. WOW!"
-        
+        view.backgroundColor = lightPurple
     
     }
     
     
     @IBAction func fireLasersButtonTapped(sender: UIButton) {
+        
+        screenLabel.textColor = white
+        screenLabel.text = "Get the hell outta Dodge!  The shit has hit the fan!"
+        screenLabel.backgroundColor = UIColor.redColor()
+        view.backgroundColor = lightTeal
         
     }
 
